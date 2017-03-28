@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1085C0761E87D99500BD388D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085C0751E87D99500BD388D /* AppDelegate.swift */; };
+		1085C07A1E87D99500BD388D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085C0791E87D99500BD388D /* SecondViewController.swift */; };
+		1085C07D1E87D99500BD388D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1085C07B1E87D99500BD388D /* Main.storyboard */; };
+		1085C07F1E87D99500BD388D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1085C07E1E87D99500BD388D /* Assets.xcassets */; };
+		1085C0821E87D99500BD388D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1085C0801E87D99500BD388D /* LaunchScreen.storyboard */; };
+		1085C08D1E87D99500BD388D /* siminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085C08C1E87D99500BD388D /* siminTests.swift */; };
+		1085C0981E87D99500BD388D /* siminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1085C0971E87D99500BD388D /* siminUITests.swift */; };
+		1085C0A61E87DDCC00BD388D /* contactphoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1085C0A51E87DDCC00BD388D /* contactphoto.jpg */; };
+		10CABDB71E87E2430061B756 /* SiminContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CABDB61E87E2430061B756 /* SiminContact.swift */; };
+		10CABDB91E87E75A0061B756 /* ContactSStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CABDB81E87E75A0061B756 /* ContactSStore.swift */; };
+		10CABDBB1E87F62E0061B756 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CABDBA1E87F62E0061B756 /* ContactViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1085C0891E87D99500BD388D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1085C06A1E87D99500BD388D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1085C0711E87D99500BD388D;
+			remoteInfo = simin;
+		};
+		1085C0941E87D99500BD388D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1085C06A1E87D99500BD388D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1085C0711E87D99500BD388D;
+			remoteInfo = simin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1085C0721E87D99500BD388D /* simin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1085C0751E87D99500BD388D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1085C0791E87D99500BD388D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1085C07C1E87D99500BD388D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1085C07E1E87D99500BD388D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1085C0811E87D99500BD388D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1085C0831E87D99500BD388D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1085C0881E87D99500BD388D /* siminTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = siminTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1085C08C1E87D99500BD388D /* siminTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = siminTests.swift; sourceTree = "<group>"; };
+		1085C08E1E87D99500BD388D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1085C0931E87D99500BD388D /* siminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = siminUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1085C0971E87D99500BD388D /* siminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = siminUITests.swift; sourceTree = "<group>"; };
+		1085C0991E87D99500BD388D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1085C0A51E87DDCC00BD388D /* contactphoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = contactphoto.jpg; sourceTree = "<group>"; };
+		10CABDB61E87E2430061B756 /* SiminContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiminContact.swift; sourceTree = "<group>"; };
+		10CABDB81E87E75A0061B756 /* ContactSStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactSStore.swift; sourceTree = "<group>"; };
+		10CABDBA1E87F62E0061B756 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1085C06F1E87D99500BD388D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1085C0851E87D99500BD388D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1085C0901E87D99500BD388D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1085C0691E87D99500BD388D = {
+			isa = PBXGroup;
+			children = (
+				1085C0741E87D99500BD388D /* simin */,
+				1085C08B1E87D99500BD388D /* siminTests */,
+				1085C0961E87D99500BD388D /* siminUITests */,
+				1085C0731E87D99500BD388D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1085C0731E87D99500BD388D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1085C0721E87D99500BD388D /* simin.app */,
+				1085C0881E87D99500BD388D /* siminTests.xctest */,
+				1085C0931E87D99500BD388D /* siminUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1085C0741E87D99500BD388D /* simin */ = {
+			isa = PBXGroup;
+			children = (
+				1085C0751E87D99500BD388D /* AppDelegate.swift */,
+				10CABDBA1E87F62E0061B756 /* ContactViewController.swift */,
+				1085C0791E87D99500BD388D /* SecondViewController.swift */,
+				1085C07B1E87D99500BD388D /* Main.storyboard */,
+				1085C07E1E87D99500BD388D /* Assets.xcassets */,
+				1085C0A51E87DDCC00BD388D /* contactphoto.jpg */,
+				1085C0801E87D99500BD388D /* LaunchScreen.storyboard */,
+				1085C0831E87D99500BD388D /* Info.plist */,
+				10CABDB61E87E2430061B756 /* SiminContact.swift */,
+				10CABDB81E87E75A0061B756 /* ContactSStore.swift */,
+			);
+			path = simin;
+			sourceTree = "<group>";
+		};
+		1085C08B1E87D99500BD388D /* siminTests */ = {
+			isa = PBXGroup;
+			children = (
+				1085C08C1E87D99500BD388D /* siminTests.swift */,
+				1085C08E1E87D99500BD388D /* Info.plist */,
+			);
+			path = siminTests;
+			sourceTree = "<group>";
+		};
+		1085C0961E87D99500BD388D /* siminUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1085C0971E87D99500BD388D /* siminUITests.swift */,
+				1085C0991E87D99500BD388D /* Info.plist */,
+			);
+			path = siminUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1085C0711E87D99500BD388D /* simin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1085C09C1E87D99500BD388D /* Build configuration list for PBXNativeTarget "simin" */;
+			buildPhases = (
+				1085C06E1E87D99500BD388D /* Sources */,
+				1085C06F1E87D99500BD388D /* Frameworks */,
+				1085C0701E87D99500BD388D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simin;
+			productName = simin;
+			productReference = 1085C0721E87D99500BD388D /* simin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1085C0871E87D99500BD388D /* siminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1085C09F1E87D99500BD388D /* Build configuration list for PBXNativeTarget "siminTests" */;
+			buildPhases = (
+				1085C0841E87D99500BD388D /* Sources */,
+				1085C0851E87D99500BD388D /* Frameworks */,
+				1085C0861E87D99500BD388D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1085C08A1E87D99500BD388D /* PBXTargetDependency */,
+			);
+			name = siminTests;
+			productName = siminTests;
+			productReference = 1085C0881E87D99500BD388D /* siminTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1085C0921E87D99500BD388D /* siminUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1085C0A21E87D99500BD388D /* Build configuration list for PBXNativeTarget "siminUITests" */;
+			buildPhases = (
+				1085C08F1E87D99500BD388D /* Sources */,
+				1085C0901E87D99500BD388D /* Frameworks */,
+				1085C0911E87D99500BD388D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1085C0951E87D99500BD388D /* PBXTargetDependency */,
+			);
+			name = siminUITests;
+			productName = siminUITests;
+			productReference = 1085C0931E87D99500BD388D /* siminUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1085C06A1E87D99500BD388D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Hisham Abraham";
+				TargetAttributes = {
+					1085C0711E87D99500BD388D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JMR6Q39U94;
+						ProvisioningStyle = Automatic;
+					};
+					1085C0871E87D99500BD388D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JMR6Q39U94;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1085C0711E87D99500BD388D;
+					};
+					1085C0921E87D99500BD388D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JMR6Q39U94;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1085C0711E87D99500BD388D;
+					};
+				};
+			};
+			buildConfigurationList = 1085C06D1E87D99500BD388D /* Build configuration list for PBXProject "simin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1085C0691E87D99500BD388D;
+			productRefGroup = 1085C0731E87D99500BD388D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1085C0711E87D99500BD388D /* simin */,
+				1085C0871E87D99500BD388D /* siminTests */,
+				1085C0921E87D99500BD388D /* siminUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1085C0701E87D99500BD388D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1085C0821E87D99500BD388D /* LaunchScreen.storyboard in Resources */,
+				1085C0A61E87DDCC00BD388D /* contactphoto.jpg in Resources */,
+				1085C07F1E87D99500BD388D /* Assets.xcassets in Resources */,
+				1085C07D1E87D99500BD388D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1085C0861E87D99500BD388D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1085C0911E87D99500BD388D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1085C06E1E87D99500BD388D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1085C07A1E87D99500BD388D /* SecondViewController.swift in Sources */,
+				1085C0761E87D99500BD388D /* AppDelegate.swift in Sources */,
+				10CABDB91E87E75A0061B756 /* ContactSStore.swift in Sources */,
+				10CABDB71E87E2430061B756 /* SiminContact.swift in Sources */,
+				10CABDBB1E87F62E0061B756 /* ContactViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1085C0841E87D99500BD388D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1085C08D1E87D99500BD388D /* siminTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1085C08F1E87D99500BD388D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1085C0981E87D99500BD388D /* siminUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1085C08A1E87D99500BD388D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1085C0711E87D99500BD388D /* simin */;
+			targetProxy = 1085C0891E87D99500BD388D /* PBXContainerItemProxy */;
+		};
+		1085C0951E87D99500BD388D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1085C0711E87D99500BD388D /* simin */;
+			targetProxy = 1085C0941E87D99500BD388D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1085C07B1E87D99500BD388D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1085C07C1E87D99500BD388D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1085C0801E87D99500BD388D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1085C0811E87D99500BD388D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1085C09A1E87D99500BD388D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1085C09B1E87D99500BD388D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1085C09D1E87D99500BD388D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JMR6Q39U94;
+				INFOPLIST_FILE = simin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chubby-Geek.simin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1085C09E1E87D99500BD388D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JMR6Q39U94;
+				INFOPLIST_FILE = simin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chubby-Geek.simin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1085C0A01E87D99500BD388D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JMR6Q39U94;
+				INFOPLIST_FILE = siminTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chubby-Geek.siminTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simin.app/simin";
+			};
+			name = Debug;
+		};
+		1085C0A11E87D99500BD388D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JMR6Q39U94;
+				INFOPLIST_FILE = siminTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chubby-Geek.siminTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simin.app/simin";
+			};
+			name = Release;
+		};
+		1085C0A31E87D99500BD388D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JMR6Q39U94;
+				INFOPLIST_FILE = siminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chubby-Geek.siminUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = simin;
+			};
+			name = Debug;
+		};
+		1085C0A41E87D99500BD388D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JMR6Q39U94;
+				INFOPLIST_FILE = siminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Chubby-Geek.siminUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = simin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1085C06D1E87D99500BD388D /* Build configuration list for PBXProject "simin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1085C09A1E87D99500BD388D /* Debug */,
+				1085C09B1E87D99500BD388D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1085C09C1E87D99500BD388D /* Build configuration list for PBXNativeTarget "simin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1085C09D1E87D99500BD388D /* Debug */,
+				1085C09E1E87D99500BD388D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1085C09F1E87D99500BD388D /* Build configuration list for PBXNativeTarget "siminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1085C0A01E87D99500BD388D /* Debug */,
+				1085C0A11E87D99500BD388D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1085C0A21E87D99500BD388D /* Build configuration list for PBXNativeTarget "siminUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1085C0A31E87D99500BD388D /* Debug */,
+				1085C0A41E87D99500BD388D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1085C06A1E87D99500BD388D /* Project object */;
+}
