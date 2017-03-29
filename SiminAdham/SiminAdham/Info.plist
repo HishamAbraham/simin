@@ -20,6 +20,14 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>This app uses the camera to take photos of houses to send to your agent</string>
+	<key>NSLocationUsageDescription</key>
+	<string>The app will use the location whil capturing a photo to get the address</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>The app will use the location whil capturing a photo to get the address</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app uses the photo library to choose a picture to send to your agent</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

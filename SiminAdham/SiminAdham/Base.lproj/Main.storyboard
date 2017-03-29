@@ -45,7 +45,7 @@
                                                         <rect key="frame" x="0.0" y="28" width="343" height="44"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Nn1-XI-0In" id="ys3-iX-g5h">
-                                                            <rect key="frame" x="0.0" y="0.0" width="343" height="44"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="343" height="43.5"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eNd-Bi-Npe">
@@ -120,33 +120,62 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <rect key="frame" x="83" y="313" width="209.5" height="41.5"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
-                                <rect key="frame" x="80" y="362.5" width="215" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b5X-5l-vH4">
+                                <rect key="frame" x="16" y="574" width="343" height="44"/>
+                                <items>
+                                    <barButtonItem systemItem="camera" id="glT-B5-KVM">
+                                        <connections>
+                                            <action selector="takePicture:" destination="8rJ-Kc-sve" id="oWk-lP-YfS"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="flexibleSpace" id="c6w-4M-9Y6"/>
+                                    <barButtonItem title="Send" id="bgn-BC-dKN">
+                                        <connections>
+                                            <action selector="send:" destination="8rJ-Kc-sve" id="e00-3h-tbR"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="JHA-N0-bIp">
+                                <rect key="frame" x="16" y="20" width="343" height="403"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cwa-sg-dng">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="199"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="199" id="0S7-Zv-U9U"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Z8F-uf-4HG">
+                                        <rect key="frame" x="0.0" y="204" width="343" height="199"/>
+                                    </imageView>
+                                </subviews>
+                                <variation key="heightClass=compact" axis="horizontal"/>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="top" secondItem="zEq-FU-wV5" secondAttribute="bottom" constant="8" symbolic="YES" id="Day-4N-Vmt"/>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="JgO-Fn-dHn"/>
-                            <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
-                            <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
+                            <constraint firstItem="b5X-5l-vH4" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="6Jx-LW-IYX"/>
+                            <constraint firstItem="JHA-N0-bIp" firstAttribute="leading" secondItem="b5X-5l-vH4" secondAttribute="leading" id="DRQ-eE-Lbj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="b5X-5l-vH4" secondAttribute="trailing" id="HOq-7O-0nJ"/>
+                            <constraint firstItem="JHA-N0-bIp" firstAttribute="trailing" secondItem="b5X-5l-vH4" secondAttribute="trailing" id="YaU-8t-rAF"/>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="b5X-5l-vH4" secondAttribute="bottom" id="hAr-Fc-ELx"/>
+                            <constraint firstAttribute="bottom" secondItem="JHA-N0-bIp" secondAttribute="bottom" constant="244" id="hny-2O-kZn"/>
+                            <constraint firstItem="JHA-N0-bIp" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" id="jor-KB-hv3"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="address" destination="cwa-sg-dng" id="wzc-5A-rNi"/>
+                        <outlet property="imageView" destination="Z8F-uf-4HG" id="VGi-9C-22n"/>
+                        <outlet property="sendButton" destination="bgn-BC-dKN" id="Srv-bN-anQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="360"/>
+            <point key="canvasLocation" x="749.60000000000002" y="359.37031484257875"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
